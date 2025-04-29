@@ -19,50 +19,51 @@
 
 ```
 .
+├── .git/
+├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── scripts/
-│   ├── 01_analisis_completo.py
-│   ├── 02_preprocessing_pipeline.py
-│   ├── 03_model_training.py
-│   ├── 01_analisis_completo_notebook.py
-│   ├── 02_preprocessing_pipeline_notebook.py
-│   └── 03_model_training_notebook.py
 ├── archivos/
-│   ├── train_data.csv
+│   ├── Miniproyecto_V2 1.docx
+│   ├── Miniproyecto_V2 1.pdf
 │   ├── test_data.csv
-│   ├── sampleSubmission.csv
-│   ├── submission.csv
-│   ├── X_train_processed.npy
-│   ├── y_train_processed.npy
-│   └── X_test_processed.npy
-├── visualizaciones/
-│   ├── 01_distribucion_bancarrota.png
-│   ├── 02_beneficio_operativo.png
-│   ├── 03_pasivo_corriente.png
-│   ├── 04_correlacion_inicial.png
-│   ├── 05_ratio_deuda.png
-│   ├── 06_distribucion_roa.png
-│   ├── 07_top_correlaciones.png
-│   ├── 08_distribucion_top_variable.png
-│   ├── 09_scatter_correlaciones.png
-│   ├── 10_densidad_beneficio.png
-│   ├── 11_violin_var1.png
-│   ├── 12_violin_var2.png
-│   ├── 13_pca_varianza.png
-│   ├── 14_importancia_variables.png
-│   ├── 15_distribucion_top_mi.png
-│   ├── 16_correlacion_top_variables.png
-│   └── 17_pca_scatter.png
-├── visualizaciones1/
-│   └── (mesmas visualizaciones que visualizaciones/)
-├── visualizaciones_modelos/
-│   ├── confusion_matrix.png
-│   ├── roc_curves.png
-│   ├── pr_curves.png
-│   ├── training_history.png
-│   └── probability_distribution.png
-└── venv/
+│   └── train_data.csv
+├── scripts/
+│   ├── 01 - analisis_completo.ipynb
+│   ├── 02 - preprocessing_pipeline.ipynb
+│   ├── 03 - model_training.ipynb
+│   ├── 04 - 3 modelos completos+preprocesamiento2.ipynb
+│   ├── test_data.csv
+│   ├── train_data.csv
+│   ├── archivos/
+│   │   ├── X_test_processed.npy
+│   │   ├── X_train_processed.npy
+│   │   ├── y_train_processed.npy
+│   │   ├── submission_3.csv
+│   │   ├── submission_4.csv
+│   │   ├── submission1.csv
+│   │   ├── submission2.csv
+│   │   └── submission_teste_13_AUC_0.8867.csv
+│   └── visualizaciones_modelos/
+├── venv/
+└── visualizaciones/
+    ├── 01_distribucion_bancarrota.png
+    ├── 02_beneficio_operativo.png
+    ├── 03_pasivo_corriente.png
+    ├── 04_correlacion_inicial.png
+    ├── 05_ratio_deuda.png
+    ├── 06_distribucion_roa.png
+    ├── 07_top_correlaciones.png
+    ├── 08_distribucion_top_variable.png
+    ├── 09_scatter_correlaciones.png
+    ├── 10_densidad_beneficio.png
+    ├── 11_violin_var1.png
+    ├── 12_violin_var2.png
+    ├── 13_pca_varianza.png
+    ├── 14_importancia_variables.png
+    ├── 15_distribucion_top_mi.png
+    ├── 16_correlacion_top_variables.png
+    └── 17_pca_scatter.png
 ```
 
 ## Preparación del Ambiente
@@ -90,15 +91,7 @@ Para ejecutar los códigos de este proyecto, siga los siguientes pasos:
    ```bash
    pip list
    ```
-   Debe ver las siguientes bibliotecas con sus versiones exactas:
-   - pandas==2.2.3
-   - numpy==2.2.4
-   - matplotlib==3.10.1
-   - seaborn==0.13.2
-   - scipy==1.15.2
-   - scikit-learn==1.6.1
-   - imbalanced-learn==0.13.0
-   - xgboost==3.0.0
+
 
 4. **Ejecutar los scripts**:
    Ejecute los scripts en el siguiente orden:
